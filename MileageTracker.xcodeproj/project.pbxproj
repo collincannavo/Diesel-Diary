@@ -12,6 +12,7 @@
 		B6F22DD61FC5239100F03BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F22DD41FC5239100F03BF5 /* Main.storyboard */; };
 		B6F22DD81FC5239100F03BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F22DD71FC5239100F03BF5 /* Assets.xcassets */; };
 		B6F22DDB1FC5239100F03BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F22DD91FC5239100F03BF5 /* LaunchScreen.storyboard */; };
+		B6F22DE61FC52A1200F03BF5 /* vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F22DE51FC52A1200F03BF5 /* vehicle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B6F22DD71FC5239100F03BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F22DDA1FC5239100F03BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F22DDC1FC5239100F03BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F22DE51FC52A1200F03BF5 /* vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				B6F22DD71FC5239100F03BF5 /* Assets.xcassets */,
 				B6F22DD91FC5239100F03BF5 /* LaunchScreen.storyboard */,
 				B6F22DDC1FC5239100F03BF5 /* Info.plist */,
+				B6F22DE41FC529D400F03BF5 /* Model */,
 			);
 			path = MileageTracker;
+			sourceTree = "<group>";
+		};
+		B6F22DE41FC529D400F03BF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6F22DE51FC52A1200F03BF5 /* vehicle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F22DD31FC5239100F03BF5 /* ViewController.swift in Sources */,
+				B6F22DE61FC52A1200F03BF5 /* vehicle.swift in Sources */,
 				B6F22DD11FC5239100F03BF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
