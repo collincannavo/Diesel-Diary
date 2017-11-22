@@ -13,6 +13,7 @@
 		B6F22DD81FC5239100F03BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F22DD71FC5239100F03BF5 /* Assets.xcassets */; };
 		B6F22DDB1FC5239100F03BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F22DD91FC5239100F03BF5 /* LaunchScreen.storyboard */; };
 		B6F22DE61FC52A1200F03BF5 /* vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F22DE51FC52A1200F03BF5 /* vehicle.swift */; };
+		B6F22DEC1FC52E2700F03BF5 /* MileageTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F22DEB1FC52E2700F03BF5 /* MileageTrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B6F22DDA1FC5239100F03BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6F22DDC1FC5239100F03BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6F22DE51FC52A1200F03BF5 /* vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vehicle.swift; sourceTree = "<group>"; };
+		B6F22DEB1FC52E2700F03BF5 /* MileageTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MileageTrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,10 @@
 		B6F22DCF1FC5239100F03BF5 /* MileageTracker */ = {
 			isa = PBXGroup;
 			children = (
-				B6F22DD01FC5239100F03BF5 /* AppDelegate.swift */,
-				B6F22DD21FC5239100F03BF5 /* ViewController.swift */,
-				B6F22DD41FC5239100F03BF5 /* Main.storyboard */,
-				B6F22DD71FC5239100F03BF5 /* Assets.xcassets */,
-				B6F22DD91FC5239100F03BF5 /* LaunchScreen.storyboard */,
-				B6F22DDC1FC5239100F03BF5 /* Info.plist */,
+				B6F22DED1FC52E4000F03BF5 /* Resources */,
+				B6F22DE71FC52CBF00F03BF5 /* Storyboards */,
 				B6F22DE41FC529D400F03BF5 /* Model */,
+				B6F22DEA1FC52DEF00F03BF5 /* ViewController */,
 			);
 			path = MileageTracker;
 			sourceTree = "<group>";
@@ -73,6 +72,34 @@
 				B6F22DE51FC52A1200F03BF5 /* vehicle.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B6F22DE71FC52CBF00F03BF5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B6F22DD41FC5239100F03BF5 /* Main.storyboard */,
+				B6F22DD91FC5239100F03BF5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B6F22DEA1FC52DEF00F03BF5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B6F22DEB1FC52E2700F03BF5 /* MileageTrackerViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B6F22DED1FC52E4000F03BF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6F22DD01FC5239100F03BF5 /* AppDelegate.swift */,
+				B6F22DD21FC5239100F03BF5 /* ViewController.swift */,
+				B6F22DD71FC5239100F03BF5 /* Assets.xcassets */,
+				B6F22DDC1FC5239100F03BF5 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F22DEC1FC52E2700F03BF5 /* MileageTrackerViewController.swift in Sources */,
 				B6F22DD31FC5239100F03BF5 /* ViewController.swift in Sources */,
 				B6F22DE61FC52A1200F03BF5 /* vehicle.swift in Sources */,
 				B6F22DD11FC5239100F03BF5 /* AppDelegate.swift in Sources */,
